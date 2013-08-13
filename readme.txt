@@ -17,10 +17,3 @@ ode_init() wird eigentlich nicht gebraucht, da der Konstruktor der Klasse alles 
 
 Es sind auch zwei makefiles bei der Abgabe, einmal für das vorgegebene main-Programm, und einmal für das Programm zum Horner-Schema.
 Das makefile zum main-Programm benutzt die Optimierungsoption -O3, die sollte man ggfs. ausschalten.
-
-Zum Schluss noch ein paar Zeitmessungen, die ich bei mir gemacht habe:
-    Programm mit allen Optimierungsoptionen:
-        durchschnittlich    0.0000767  sec
-
-    Programm ohne Optimierungsoptionen:
-        durchschnittlich    0.00014    sec
