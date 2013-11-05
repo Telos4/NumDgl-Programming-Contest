@@ -16,4 +16,4 @@ Die ode_calc() Funktion ruft zum Lösen der Dgl die approximate()-Methode an ein
 ode_init() wird eigentlich nicht gebraucht, da der Konstruktor der Klasse alles übernimmt.
 
 Es sind auch zwei makefiles bei der Abgabe, einmal für das vorgegebene main-Programm, und einmal für das Programm zum Horner-Schema.
-Das makefile zum main-Programm benutzt die Optimierungsoption -O3, die sollte man ggfs. ausschalten.
+Das makefile zum main-Programm benutzt die Optimierungsoption -O2, die sollte man ggfs. ausschalten.
